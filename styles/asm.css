@@ -1,16 +1,10 @@
 
-/*body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fe;
-}*/
-
 .hero {
   background-image: url("../images/Hero-bg.png"); /* background image with icons */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 900px;
+  height: 400px;
   text-align: center;
   padding: 40px 20px;
 }
@@ -25,7 +19,7 @@
 .logo {
   font-size: 40px;
   font-weight: bold;
-  color: #4F46E5; /* Indigo */
+  color: #4F46E5;
 }
 
 .signup-btn {
@@ -57,13 +51,13 @@
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  cursor: pointer;
+  cursor:pointer;
 }
 
 .body {
-      margin: 0;
+     
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f7f9ff;
+      background-color: white;
       color: #1e1e1e;
       align-items: center;
     }
@@ -123,9 +117,7 @@
 
 
 
-        .body2 {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
+    .body2 {
       background-color: #f7f9ff;
     }
 
@@ -182,16 +174,19 @@
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 40px;
 }
 
-.hi1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
+.skill-container{  
+    display: flex;
+    gap: 24px;
+    padding: 40px 88px 40px 88px;
 }
+  
+
+
 
 .card123 {
   background: white;
@@ -228,7 +223,7 @@
 .reviewer img {
   width: 40px;
   height: 40px;
-  border-radius: 9999px;
+  border-radius: 999px;
 }
 
 .reviewer .name {
@@ -246,7 +241,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 900px;
+  height: 600px;
 }
 
 .container {
@@ -321,5 +316,42 @@ button {
 }
 
 button:hover {
-  background-color: #c3c3c6;
+  background-color: #141417;
 }
+
+.footer1{
+    text-align: center;
+     padding: 40px 20px;
+      background-color: #f8f8f8;
+}
+
+.footer-h{
+    color: #4f46e5;
+     font-size: 50px;
+      margin: 0;
+}
+.footer-p{
+    color: #666;
+    max-width: 600px; 
+    margin: 20px auto; 
+    font-size: 16px
+}
+
+.footer-a{
+    margin: 0 10px; 
+    color: #666; 
+    text-decoration: none;
+}
+
+.footer-div{
+    margin-top: 20px;
+}
+
+ 
+      
+    
+
+    .my-button:hover{
+        background-color: white;
+        color: black;
+    }
